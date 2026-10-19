@@ -1,0 +1,29 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# NASA dataset files and processed datasets
+Data/*.txt
+Data/*.csv
+data/*.txt
+data/*.csv
+
+# Generated experiment outputs
+outputs/*.csv
+outputs/*.png
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
